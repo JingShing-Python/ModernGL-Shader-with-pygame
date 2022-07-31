@@ -1,4 +1,5 @@
 # ModernGL-Shader-with-pygame
+I had put a crt shader as example in shaders folder. you can write your own shader.
 you can use this class to give pygame a shader to render screen. it is easy to use.
 
 I will add tutorial later I have free time.
