@@ -13,3 +13,5 @@ I had put example file in it. You can experiment with it and try something new.
 4. Replace all display.update with your new shader render function.
 
 Enjoy crt shader in your game.
+
+crt example : https://www.youtube.com/watch?v=2ekJdkXC4iM
