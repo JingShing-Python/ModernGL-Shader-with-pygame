@@ -15,3 +15,7 @@ I had put example file in it. You can experiment with it and try something new.
 Enjoy crt shader in your game.
 
 crt example : https://www.youtube.com/watch?v=2ekJdkXC4iM
+
+我的OpenGL啟蒙者。ModernGL在很多方面都方便很多，不過這也是弊端，雖然和pygame的兼容性很高，不過不是一條長遠的道路。
+
+想要過過shader的癮可以嘗試，但最好淺嘗，ModernGL本身的缺陷很多，打包時很痛苦。
