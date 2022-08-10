@@ -14,7 +14,7 @@ I had put example file in it. You can experiment with it and try something new.
 
 Enjoy crt shader in your game.
 
-crt example : https://www.youtube.com/watch?v=2ekJdkXC4i
+crt example : https://www.youtube.com/watch?v=2ekJdkXC4iM
 
 my works using this class :
 
