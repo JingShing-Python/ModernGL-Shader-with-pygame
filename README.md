@@ -22,6 +22,14 @@ Myth of Charlie ：https://jingshing.itch.io/myth-of-charlie
 
 DragonCastle：https://jingshing.itch.io/dragoncastle
 
+使用說明：
+1. 將你原本用於display的變量以Surface的方式重新宣告，並取消對display的變量宣告。之後要繪製的圖形就全部渲染到這張Surface上。以下將簡稱這個Surface為Screen。screen = pygame.Surface(size)
+2. 在display裡設置為OPENGL和DOUBLEBUF的模式，以便讓OpenGL渲染。pygame.display.set_mode(size, DOUBLEBUF|OPENGL)
+3. 導入上面提供的Shader的Class，並自行實例化。之後要用這個實例化的物件渲染。
+4. 將原本畫面更新的部分，全部更改成以shader的物件render。有獨立的func，也設置了__call__的指令。可以直接呼叫物件渲染。
+
+
+
 我的OpenGL啟蒙者。ModernGL在很多方面都方便很多，不過這也是弊端，雖然和pygame的兼容性很高，不過不是一條長遠的道路。
 
 想要過過shader的癮可以嘗試，但最好淺嘗，ModernGL本身的缺陷很多，打包時很痛苦。
