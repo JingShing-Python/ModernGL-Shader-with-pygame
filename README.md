@@ -42,5 +42,6 @@ DragonCastle：https://jingshing.itch.io/dragoncastle
 
 ---
 ## UPDATE:
-ADD "Fullscreen" function in crt_shader
-ADD "change shader" function in crt_shader
+* ADD "Fullscreen" function in crt_shader
+
+* ADD "change shader" function in crt_shader
